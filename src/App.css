@@ -1,0 +1,25 @@
+:root {
+    --main-color: #2196F3;
+}
+
+h4 {
+    margin: 1rem 0;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    background-color: var(--main-color);
+    border: var(--main-color);
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid var(--main-color);
+    box-shadow: 0 1px 0 0 var(--main-color);
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly])+label {
+    color: var(--main-color);
+}
+
+select:focus {
+    outline: 1px solid #2195f33d;
+}
