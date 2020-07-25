@@ -1,6 +1,6 @@
-React app to track IT department tasks and issues. Uses JSON-Server as a mock backend.
-In this project, state management is built with Redux.
-The UI uses the Materialize framework.
+React app to track IT department tasks and issues. Uses JSON-Server as a mock backend. <br>
+In this project, state management is built with Redux.  <br>
+The UI uses the Materialize framework.  <br>
 
 npm install <br>
 npm run dev <br>
